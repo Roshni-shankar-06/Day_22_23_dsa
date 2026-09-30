@@ -13,8 +13,4 @@ class Solution {
       return;
     }
 
-    for (int i = s; i < num.length(); ++i) {
-      if (i > s && num.charAt(s) == '0')
-        return;
-      final long curr = Long.parseLong(num.substring(s, i + 1));
- 
+   
