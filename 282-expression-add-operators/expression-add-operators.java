@@ -8,9 +8,4 @@ class Solution {
   private void dfs(String num, int target, int s, long prev, long eval, StringBuilder sb,
                    List<String> ans) {
     if (s == num.length()) {
-      if (eval == target)
-        ans.add(sb.toString());
-      return;
-    }
-
-   
+     
