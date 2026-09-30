@@ -12,8 +12,4 @@ class Solution {
       else
         ans.push_back(depth-- % 2);
 
-    return ans;
-  }
-};
-
 
