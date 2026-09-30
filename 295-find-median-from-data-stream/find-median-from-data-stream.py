@@ -9,7 +9,4 @@ class MedianFinder:
     else:
       heapq.heappush(self.minHeap, num)
 
-    # Balance the two heaps s.t.
-    # |maxHeap| >= |minHeap| and |maxHeap| - |minHeap| <= 1.
-    if len(self.maxHeap) < len(self.minHeap):
-      heapq.heappush(self.maxHeap, -heapq.heappop(self.minHeap))
+    
