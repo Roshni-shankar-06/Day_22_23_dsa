@@ -9,7 +9,5 @@ class Solution {
 
     for (int i = 0; i < m; ++i)
       for (int j = 0; j < n; ++j) {
-        final int index = (i * n + j + k) % (m * n);
-        final int x = index / n;
-        final int y = index % n;
+  
       
