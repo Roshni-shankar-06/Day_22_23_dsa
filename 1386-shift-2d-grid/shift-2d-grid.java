@@ -16,8 +16,4 @@ class Solution {
       }
 
     for (int[] row : arr)
-      ans.add(Arrays.stream(row).boxed().collect(Collectors.toList()));
-
-    return ans;
-  }
-}
+     
