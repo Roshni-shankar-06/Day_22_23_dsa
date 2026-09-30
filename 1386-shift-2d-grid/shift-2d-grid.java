@@ -5,9 +5,4 @@ class Solution {
     List<List<Integer>> ans = new ArrayList<>();
     int[][] arr = new int[m][n];
 
-    k %= m * n;
-
-    for (int i = 0; i < m; ++i)
-      for (int j = 0; j < n; ++j) {
-  
-      
+   
