@@ -12,8 +12,4 @@ class Solution {
         final int index = (i * n + j + k) % (m * n);
         final int x = index / n;
         final int y = index % n;
-        arr[x][y] = grid[i][j];
-      }
-
-    for (int[] row : arr)
-     
+      
