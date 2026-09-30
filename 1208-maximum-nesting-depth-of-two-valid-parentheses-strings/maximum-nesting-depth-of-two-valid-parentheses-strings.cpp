@@ -8,8 +8,4 @@ class Solution {
     // the other group.
     for (const char c : seq)
       if (c == '(')
-        ans.push_back(++depth % 2);
-      else
-        ans.push_back(depth-- % 2);
-
-
+       
