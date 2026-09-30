@@ -9,6 +9,3 @@ WITH
   )
 SELECT DISTINCT num AS ConsecutiveNums
 FROM LogsNeighbors
-WHERE
-  num = prev_num
-  AND num = next_num;
