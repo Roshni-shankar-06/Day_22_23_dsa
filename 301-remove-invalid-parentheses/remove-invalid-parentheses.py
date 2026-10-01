@@ -24,11 +24,5 @@ class Solution(object):
                 ans.append(curr)
                 found = True
             
-            if found:
-                continue
-
-            for i in range(len(curr)):
-                if curr[i] not in "()":
-                    continue
-                next_str = curr[:i] + curr[i+1:]
+          
                
