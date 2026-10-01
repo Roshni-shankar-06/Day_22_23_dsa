@@ -12,11 +12,6 @@ class Codec:
             dfs(node.left)
             dfs(node.right)
             
-        dfs(root)
-        return ",".join(res)
-
-    def deserialize(self, data):
-        """Decodes your encoded data to tree."""
-        vals = iter(data.split(","))
+   
         
       
