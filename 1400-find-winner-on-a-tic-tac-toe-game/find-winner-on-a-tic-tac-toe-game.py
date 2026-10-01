@@ -15,9 +15,3 @@ class Solution:
                 diag2[player] += 1
                 
             if (rows[player][r] == 3 or 
-                cols[player][c] == 3 or 
-                diag1[player] == 3 or 
-                diag2[player] == 3):
-                return "A" if player == 0 else "B"
-                
-        return "Draw" if len(moves) == 9 else "Pending"
