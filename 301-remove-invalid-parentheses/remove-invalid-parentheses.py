@@ -18,11 +18,6 @@ class Solution(object):
         queue = deque([s])
         found = False
 
-        while queue:
-            curr = queue.popleft()
-            if isValid(curr):
-                ans.append(curr)
-                found = True
             
           
                
