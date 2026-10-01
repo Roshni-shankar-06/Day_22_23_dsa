@@ -8,8 +8,3 @@ class Solution {
   }
 
  private:
-  void reverse(vector<int>& nums, int l, int r) {
-    while (l < r)
-      swap(nums[l++], nums[r--]);
-  }
-};
