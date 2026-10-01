@@ -31,8 +31,4 @@ class Solution(object):
                 if curr[i] not in "()":
                     continue
                 next_str = curr[:i] + curr[i+1:]
-                if next_str not in visited:
-                    visited.add(next_str)
-                    queue.append(next_str)
-                    
-        return ans
+               
