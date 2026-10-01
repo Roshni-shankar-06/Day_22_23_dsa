@@ -15,11 +15,4 @@ class Solution {
 
     for (int i = s; i < num.length(); ++i) {
       if (i > s && num.charAt(s) == '0')
-        return;
-      final long curr = Long.parseLong(num.substring(s, i + 1));
-      final int length = sb.length();
-      if (s == 0) { // the first number
-        dfs(num, target, i + 1, curr, curr, sb.append(curr), ans);
-        sb.setLength(length);
-      } else {
-  
+       
