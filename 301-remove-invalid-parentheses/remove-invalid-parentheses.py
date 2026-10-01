@@ -11,13 +11,7 @@ class Solution(object):
                     count -= 1
                 if count < 0:
                     return False
-            return count == 0
-
-        ans = []
-        visited = {s}
-        queue = deque([s])
-        found = False
-
+           
             
           
                
