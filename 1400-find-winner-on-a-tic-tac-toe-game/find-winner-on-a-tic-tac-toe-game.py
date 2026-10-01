@@ -5,8 +5,4 @@ class Solution:
         diag1 = [0, 0]
         diag2 = [0, 0]
         
-        for i, (r, c) in enumerate(moves):
-            player = i % 2
-            rows[player][r] += 1
-            cols[player][c] += 1
-           
+    
