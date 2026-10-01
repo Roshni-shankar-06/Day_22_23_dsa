@@ -5,8 +5,4 @@ SELECT
     e.salary AS Salary
 FROM 
     Employee e
-JOIN 
-    Department d ON e.departmentId = d.id
-WHERE 
-    (e.departmentId, e.salary) IN (
-    
+
