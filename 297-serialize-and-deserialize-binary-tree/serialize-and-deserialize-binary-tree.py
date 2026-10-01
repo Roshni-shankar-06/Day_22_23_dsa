@@ -19,13 +19,4 @@ class Codec:
         """Decodes your encoded data to tree."""
         vals = iter(data.split(","))
         
-        def dfs():
-            val = next(vals)
-            if val == "N":
-                return None
-            node = TreeNode(int(val))
-            node.left = dfs()
-            node.right = dfs()
-            return node
-            
-        return dfs()
+      
