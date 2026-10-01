@@ -9,9 +9,4 @@ class Solution:
             player = i % 2
             rows[player][r] += 1
             cols[player][c] += 1
-            if r == c:
-                diag1[player] += 1
-            if r + c == 2:
-                diag2[player] += 1
-                
-            if (rows[player][r] == 3 or 
+           
