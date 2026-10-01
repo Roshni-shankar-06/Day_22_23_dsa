@@ -22,14 +22,4 @@ class Solution {
         dfs(num, target, i + 1, curr, curr, sb.append(curr), ans);
         sb.setLength(length);
       } else {
-        dfs(num, target, i + 1, curr, eval + curr, sb.append("+").append(curr), ans);
-        sb.setLength(length);
-        dfs(num, target, i + 1, -curr, eval - curr, sb.append("-").append(curr), ans);
-        sb.setLength(length);
-        dfs(num, target, i + 1, prev * curr, eval - prev + prev * curr, sb.append("*").append(curr),
-            ans);
-        sb.setLength(length);
-      }
-    }
-  }
-}
+  
